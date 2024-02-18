@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpô</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <h1 class="title">JokenPô</h1>
+        
+        <div class="main-container">
+            <label for="place-name" class="label-name" type="name">Digite Seu Nome:   </label> 
+            <input id="place-name" class="digite-name" type="name">
+            <button class="submit" onclick="send()">Enviar</button>
+        </div>
+        
+        <div class="placar">
+                <h2 class="digitname">username <!--aqui entra o nome do usuário-->
+                </h2>
+                <span class="user-score">0</span>
+                <p class="x">X</p>
+                <h3 class="machine-name"><span class="machine-score">0</span> Máquina</h3>
+        </div>
+        
+        <button class="restart" onclick="reset()">⟳ Restart</button>
+
+    <div class="buttons">
+        <button class="rock" onclick="humanPlay('rock')">&#x270A;</button>
+        <button class="paper" onclick="humanPlay('paper')">&#x1F590;</button>
+        <button class="scissor" onclick="humanPlay('scissor')">&#x270C;</button>
+    </div>
+
+    <p class="good-lucky">Boa Sorte!</p>
+
+    <p class="resultado"></p>
+    
+    <footer class="footer">
+        CopyRight © 2024 - Desenvolvido por <strong><a href="https://www.linkedin.com/in/jonatas-jc/" target="_blank">
+                Jonatas Cavalcante</a></strong>
+    </footer>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>

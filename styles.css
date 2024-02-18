@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Protest+Riot&display=swap');
+
+
+* {
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: fredoka; 
+}
+
+body{
+    background-image: url(./assets/background.jpg);
+    background-size:cover; 
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-weight: 300;
+    color: gray;
+}
+
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+}
+
+.main-container{
+    margin-top: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.placar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+button{
+    padding: 10px;
+    font-size: 50px;
+    margin-top: 100px;
+    cursor: pointer;
+    border:1px solid;
+    border-color: goldenrod;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 300px;
+}
+
+.digite-name{
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    height: 30px;
+    border-radius: 3px;
+    border: 2px solid ;
+    border-color: rgb(141, 111, 4);
+    margin-left:0px;
+    color: rgb(141,111,4);
+    outline: none;
+    row-gap: 10px;
+}
+
+.label-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:gray;
+    font-size: 20px;
+    margin-top: 1px;
+    gap:15px;
+    margin-right: 5px;
+}
+.submit{
+    height: 20px;
+    width: 40px;
+    color: rgb(141, 111, 4);
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+    margin-left: 5px;    
+}
+
+.restart{
+    height: 30px;
+    width: 120px;
+    color: rgb(141, 111, 4);
+    border-color: rgb(141, 111, 4);
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+    margin-left: 47.5%;
+}
+
+
+
+.digitname, .machine-name{
+    color:gray;
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+span{
+    color:black;
+    font-weight: 500;
+    font-size: 40px;
+    color: goldenrod;
+    margin-top: 20px;
+}
+
+.x{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+
+.rock:hover{
+    opacity: 0.5;
+    padding: 12px;
+}
+.paper:hover{
+    opacity: 0.5;
+    padding: 12px;
+}
+
+.scissor:hover{
+    opacity: 0.5;
+    padding: 12px;
+}
+
+
+.good-lucky{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+    position:static;
+    
+}
+
+.resultado{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 50px;
+    color:goldenrod;
+    display:'';
+}
+
+
+
+.footer{
+    position: absolute;
+    padding: 1.0rem;
+    text-align: center;
+    background-color: rgb(106, 102, 102);
+    width: 100%;
+    bottom: 0;
+    color: white;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(63, 61, 61);
+}
+a:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+    cursor: pointer;
+}
+a:active{
+    opacity: 0.8;
+}
+
+
+@media (max-width:700px) {
+
+body{
+    background-size:contain;
+    
+}
+
+
+.digitname, .machine-name{
+    color:black;
+    font-weight: 200px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.restart{
+    margin-left: 150px;
+}
+.rock, .paper, .scissor{
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+}
+
+.buttons{
+    gap: 20px;
+    height: 200px;
+}
+
+.good-lucky{
+    font-size: 20px;
+}
+
+.resultado{
+    font-size: 30px;
+}
+
+
+    .footer{
+    padding: 0.5rem;
+    height: 30px;
+    font-size: 13px;
+}
+    
+}
