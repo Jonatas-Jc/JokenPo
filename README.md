@@ -18,4 +18,4 @@ For it, the user does the choice between the game options and observes the resul
 Neste Projeto Foram utilizados Html, Css e Javascript.
 
 
-In this project were used Html, Css and Javascript.
+In this project were used Html, Css and Javascript.# JokenPo
